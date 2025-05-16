@@ -74,5 +74,14 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "dwoodard/a2a-laravel": {
+            "type": "path",
+            "url": "/Users/dustin/projects/Sites/A2A-Server/packages/dwoodard/A2aLaravel",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
 }
