@@ -10,6 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "dwoodard/a2alaravel": "dev-main",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1"
     },
@@ -76,7 +77,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "repositories": {
-        "dwoodard/a2a-laravel": {
+        "dwoodard/a2alaravel": {
             "type": "path",
             "url": "/Users/dustin/projects/Sites/A2A-Server/packages/dwoodard/A2aLaravel",
             "options": {

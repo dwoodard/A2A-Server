@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88970a0117c062eed55fa8728fc43833",
+    "content-hash": "1447999f4df3af5836a4c6f083ee87e3",
     "packages": [
         {
             "name": "brick/math",
@@ -442,6 +442,72 @@
                 }
             ],
             "time": "2024-10-09T13:47:03+00:00"
+        },
+        {
+            "name": "dwoodard/a2alaravel",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/Users/dustin/projects/Sites/A2A-Server/packages/dwoodard/A2aLaravel",
+                "reference": "eee58b9ac0fd3917f39c172f6b120db418ecb57b"
+            },
+            "require": {
+                "illuminate/support": ">=8.0",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.47",
+                "pestphp/pest": "^1.23",
+                "pestphp/pest-plugin-laravel": "^1.4",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Dwoodard\\A2aLaravel\\A2aLaravelServiceProvider"
+                    ],
+                    "aliases": {
+                        "A2A": "Dwoodard\\A2aLaravel\\Facades\\A2a"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dwoodard\\A2aLaravel\\": "src/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ],
+                "test-coverage": [
+                    "vendor/bin/phpunit --coverage-html coverage"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dustin Woodard",
+                    "email": "dustin.woodard@gmil.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Laravel package implementing the A2A (Agent-to-Agent) specification, providing models, JSON-RPC endpoints, skill registry, task lifecycle management, SSE streaming, and push notification support for agent-based workflows.",
+            "homepage": "https://github.com/dwoodard/A2aLaravel",
+            "keywords": [
+                "a2a",
+                "agent-to-agent",
+                "dwoodard",
+                "json-rpc",
+                "laravel"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
         },
         {
             "name": "egulias/email-validator",
@@ -8075,7 +8141,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "dwoodard/a2alaravel": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
