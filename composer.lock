@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1447999f4df3af5836a4c6f083ee87e3",
+    "content-hash": "2e936b7f79105e08f769c7b4b281e481",
     "packages": [
         {
             "name": "brick/math",
@@ -445,11 +445,11 @@
         },
         {
             "name": "dwoodard/a2alaravel",
-            "version": "dev-main",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "/Users/dustin/projects/Sites/A2A-Server/packages/dwoodard/A2aLaravel",
-                "reference": "eee58b9ac0fd3917f39c172f6b120db418ecb57b"
+                "reference": "0ed7df24895d9b16b01477f0c5ba5c1b248518ff"
             },
             "require": {
                 "illuminate/support": ">=8.0",
@@ -8141,9 +8141,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "dwoodard/a2alaravel": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
